@@ -1,6 +1,6 @@
 <ng-container *ngIf="listTask.length > 0; else noTask">
   <ul>
-    <li *ngFor="let task of listTask">
+    <li  id="instructions" class="paper"  *ngFor="let task of listTask">
       {{ task }}
       <button class="button-remove" (click)="remove(task)">
         <i class="fa fa-trash" aria-hidden="true"></i>

@@ -1,13 +1,13 @@
-<div id="page">
-    <div class="container">
-        <h3>ToDo List</h3>
+<div id="instructions">
+    <h3>ToDo List</h3>
+    <div>
         <div>
             <app-todo-task [listTask]="listTask" (emitDone)="done($event)" (emitRemove)="remove($event)"></app-todo-task>
         </div>
         <div>
             <app-done-task [doneListTask]="doneListTask"></app-done-task>
         </div>
-        <div class="container">
+        <div>
             <app-add-task (emitTask)="addTask($event)"></app-add-task>
         </div>
     </div>

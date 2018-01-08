@@ -1,6 +1,6 @@
-<div >
+<div>
   <ul>
-    <li *ngFor="let task of doneListTask" [className]="'style1'"> {{ task }}
+    <li *ngFor="let task of doneListTask" [className]="'paper'"> {{ task }}
       <button class="button-remove" (click)="remove(task)">
         <i class="fa fa-trash" aria-hidden="true"></i>
       </button>
