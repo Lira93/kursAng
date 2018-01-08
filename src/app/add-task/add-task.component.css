@@ -1,0 +1,17 @@
+.button-remove{
+    float: right;
+    background-color: #fff;
+    box-decoration-break: none;
+}
+.button-done{
+    float: left;
+    background-color: #fff;
+    box-decoration-break: none;
+}
+li{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+}
+.fa fa-plus{
+    float: left;
+}

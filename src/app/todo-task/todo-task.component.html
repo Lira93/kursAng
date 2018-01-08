@@ -1,0 +1,17 @@
+<ng-container *ngIf="listTask.length > 0; else noTask">
+  <ul>
+    <li *ngFor="let task of listTask">
+      {{ task }}
+      <button class="button-remove" (click)="remove(task)">
+        <i class="fa fa-trash" aria-hidden="true"></i>
+      </button>
+      <input type="checkbox" class="button-done" (click)="done(task)">
+      <span class="checkmark"></span>
+    </li>
+  </ul>
+</ng-container>
+<ng-container>
+  <ng-template #noTask>
+    <p>Brak zadań czas wolny!</p>
+  </ng-template>
+</ng-container>

@@ -1,0 +1,23 @@
+
+.style1{
+    color: #9eb2c0;
+    text-decoration: line-through;
+}
+ul {
+    list-style-type: none;
+  }
+li{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+}
+
+.button-remove{
+    float: right;
+    background-color: #fff;
+
+}
+.button-done{
+    float: left;
+    background-color: #fff;
+
+}

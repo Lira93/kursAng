@@ -1,0 +1,21 @@
+ul {
+    list-style-type: none;
+    padding: 1px;
+    background: #9eb2c0;
+  }
+li{
+    font-family: 'Lato', sans-serif;
+}
+ul li {
+    background: #fff;
+    margin: 2px;
+}
+.button-remove{
+    float: right;
+    background-color: #fff;
+}
+.button-done{
+    float: left;
+    background-color: #fff;
+
+}
